@@ -1,0 +1,10 @@
+Backgrounds/
+Logs/
+PHPMailer/
+phpMyAdmin/
+Temp/
+Uploads/
+
+Include/connect.php
+Include/encrypt.php
+pullFromGit.php

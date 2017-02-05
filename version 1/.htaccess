@@ -1,0 +1,12 @@
+# Disable server signature
+ServerSignature Off
+
+RewriteEngine on
+RewriteRule    ^channel/?$    channel.php  [NC,L]
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} !-f
+RewriteRule \.(gif|jpe?g|png|bmp) /var/www/Images/404.png [NC,L]
+
+Options -Indexes
+
+ErrorDocument 403 http://plychannel.com/404
+ErrorDocument 404 http://plychannel.com/404
