@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: 
+Disallow: /Include
+Disallow: /Images
+Disallow: /js
+Disallow: /Section
+Disallow: /css
+Sitemap: http://plychannel.com/sitemap.xml
